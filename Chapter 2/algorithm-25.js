@@ -1,6 +1,5 @@
 /* Algorithm 25.
 Enter a date in ddmmyy format and print: separate day, month and year..*/
-
 date = prompt("Enter a date in format ddmmaa");
 day = date / 10000;
 month = (date % 10000) / 100;
