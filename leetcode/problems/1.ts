@@ -1,10 +1,6 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-var twoSum = function (nums, target) {
-  let newArray = [];
+function twoSum(nums: number[], target: number): number[] {
+  let newArray: number[] = [];
+  let sum: number;
   nums.forEach((num, index, nums) => {
     nums.forEach((num2, index2) => {
       sum = num + num2;
@@ -14,4 +10,4 @@ var twoSum = function (nums, target) {
     });
   });
   return newArray;
-};
+}
