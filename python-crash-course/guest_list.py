@@ -8,3 +8,5 @@ guests.pop()
 print(guests)
 guests.remove("Lourdilene")
 print(guests)
+
+print(f"The number of guests is {len(guests)}")

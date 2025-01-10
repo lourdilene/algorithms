@@ -1,0 +1,10 @@
+places = ["Belém", "Marituba", "Ananindeua", "Breves", "Colares"]
+print(places)
+print(sorted(places))
+print(places)
+print(sorted(places,reverse=True))
+print(places)
+places.sort()
+print(f"Using sort {places}")
+places.sort(reverse=True)
+print(places)
