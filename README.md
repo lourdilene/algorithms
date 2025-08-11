@@ -1,0 +1,3 @@
+tests run:
+
+pytest -q
